@@ -19,8 +19,14 @@ class ProductResource extends JsonResource
             'name' => $this->name,
             'description' => $this->detail,
             'pice' => $this->price,
-            'stock' => $this->stock,
-            'discount' => $this->discount
+            'stock' => $this->stock == 0 ? 'Yeterli stok yok' : $this->stock,
+            'discount' => $this->discount,
+            'totalPrice' => round(( 1 - ($this->discount/100)) * $this->price,2),
+            'rating' => $this->reviews->count() > 0 ?
+                round($this->reviews->sum('star')/$this->reviews->count(),2) : 'Derecelendirme yok',
+            'href' => [
+                 'reviews' => route('reviews.index',$this->id)
+            ]
         ];
     }
 }
