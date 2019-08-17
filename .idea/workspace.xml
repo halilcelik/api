@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4803eab2-c88d-46e8-9373-0e1383c650c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c1b75d5-ccd8-4550-9027-0cb39235d611.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4c1b75d5-ccd8-4550-9027-0cb39235d611.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_15_222343_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_15_222343_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,81 +61,48 @@
         <counts>
           <entry key="env" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="oauth_clients" value="4" />
-          <entry key="php" value="27" />
-          <entry key="products" value="12" />
+          <entry key="oauth_clients" value="7" />
+          <entry key="php" value="33" />
+          <entry key="products" value="13" />
           <entry key="reviews" value="3" />
           <entry key="sql" value="1" />
-          <entry key="users" value="2" />
+          <entry key="users" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Database Element" value="21" />
-          <entry key="PHP" value="27" />
+          <entry key="Database Element" value="28" />
+          <entry key="PHP" value="33" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="4" />
+          <entry key="cell" value="44" />
           <entry key="env" value="4" />
-          <entry key="php" value="2888" />
+          <entry key="php" value="3309" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="4" />
-          <entry key="PHP" value="2888" />
+          <entry key="PHP" value="3309" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Scratch" value="4" />
+          <entry key="Scratch" value="44" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="119" column="56" lean-forward="true" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="56" />
-              <folding>
-                <element signature="e#76#113#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://4c1b75d5-ccd8-4550-9027-0cb39235d611/schema/eapi/table/products">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#34#48#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#34#99#0#PHP" expanded="true" />
               </folding>
@@ -140,61 +111,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/ProductRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="578">
+              <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
               <folding>
-                <element signature="e#23#57#0#PHP" expanded="true" />
+                <element signature="e#41#84#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="16" />
-              <folding>
-                <element signature="e#33#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+            <state relative-caret-position="238">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -214,12 +146,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_08_15_222343_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_08_15_222432_create_reviews_table.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/factories/ProductFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/ReviewFactory.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Model/Review.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Product/ProductResource.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Product/ProductCollection.php" />
@@ -231,8 +160,13 @@
         <option value="$PROJECT_DIR$/app/Http/Requests/ProductRequest.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Response.php" />
         <option value="$PROJECT_DIR$/app/Model/Product.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_15_222343_create_products_table.php" />
+        <option value="$PROJECT_DIR$/database/factories/ProductFactory.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Exceptions/ProductNotBelongsToUser.php" />
+        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php" />
       </list>
     </option>
@@ -383,7 +317,25 @@
               <item name="eapi" type="b2602c69:ProjectViewProjectNode" />
               <item name="eapi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eapi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eapi" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eapi" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,12 +375,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565905207133</updated>
-      <workItem from="1565905208540" duration="32894000" />
+      <workItem from="1565905208540" duration="38839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32894000" />
+    <option name="totallyTimeSpent" value="38839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1040" height="744" extended-state="6" />
@@ -443,7 +395,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" visible="true" weight="0.18852459" />
+      <window_info anchor="bottom" id="Database Console" weight="0.18852459" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -451,7 +403,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.17959183" />
+      <window_info anchor="right" id="Database" visible="true" weight="0.07857143" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -488,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_15_222343_create_products_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -502,27 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/ReviewFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="e#67#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ProductFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
             <element signature="e#67#89#0#PHP" expanded="true" />
           </folding>
@@ -590,20 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://4c1b75d5-ccd8-4550-9027-0cb39235d611/schema/eapi/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4c1b75d5-ccd8-4550-9027-0cb39235d611/schema/eapi/table/oauth_clients">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -646,13 +560,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/ProductNotBelongsToUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="119" column="56" lean-forward="true" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="56" />
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="14" />
           <folding>
-            <element signature="e#76#113#0#PHP" expanded="true" />
+            <element signature="e#34#48#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4c1b75d5-ccd8-4550-9027-0cb39235d611/schema/eapi/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -663,20 +591,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_15_222343_create_products_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="222">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <element signature="e#34#48#0#PHP" expanded="true" />
+            <element signature="e#66#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ProductFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="e#67#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4c1b75d5-ccd8-4550-9027-0cb39235d611/schema/eapi/table/oauth_clients">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding>
+            <element signature="e#41#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#34#99#0#PHP" expanded="true" />
           </folding>
